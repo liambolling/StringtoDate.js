@@ -58,7 +58,7 @@ function dateParse(dateString){
 			// If the array value is a string
 			tempLowercase = dateString[i].toLowerCase();
 
-			if(knownDictonary[tempLowercase] == null && knownTimeDictonary[tempLowercase] == null){
+			if(knownDictonary[tempLowercase] == null){
 				// Is the first charecter a number? 
 				if(!isNaN(Number(dateString[i].charAt(0)))){
 					// Is the first charecter a 0? If so, remove it.
@@ -220,8 +220,6 @@ function dateParse(dateString){
 			// Was found in the known dictonary. Check against if it is a month
 			}else if(knownDictonary[tempLowercase][0] == "month"){
 				resultTime.setMonth(knownDictonary[tempLowercase][1]);
-			}else if(knownTimeDictonary[tempLowercase][0] == "time"){
-				resultTime.setHours(Number(tempTimeSplit[0]));
 			}
 
 		}else{

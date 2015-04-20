@@ -3,7 +3,7 @@
 	  <meta charset="utf-8">
 	  <title>String to Date by Liam Bolling</title>
 	  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-	  <script src="main.js">
+	  <script src="main.js"></script>
 	</head>
 	
 	<body>
@@ -12,12 +12,12 @@
 		<br>
 		<a href="#" onclick="checkNewParser(); return false;">Convert to Date 😁</a>
 		<br>
-		<div id="output_new">(Date will print here on convert)</div>
+		<div id="output_print">(Date will print here on convert)</div>
 	
 		<script>	
 			function checkNewParser(){
-				endResult = dateParse(document.getElementById("new_parser").value);
-				document.getElementById("output_new").innerHTML = endResult;
+				endResult = dateParse(document.getElementById("input_string").value);
+				document.getElementById("output_print").innerHTML = endResult;
 			}
 		</script>
 		
