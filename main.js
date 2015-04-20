@@ -1,3 +1,6 @@
+//Copyright (c) 2015 Liam Bolling
+//https://www.linkedin.com/in/liambolling
+
 function dateParse(dateString){
 	
 	//Create new date object based on current time.
@@ -34,7 +37,6 @@ function dateParse(dateString){
 	knownMeridiemDictonary["a"] = ["meridiem", 1];
 	knownMeridiemDictonary["am"] = ["meridiem", 1];
 	knownMeridiemDictonary["pm"] = ["meridiem", 0];
-	
 	
 	//Removes all possible special charecters and replaces it with a space
 	dateString = dateString.replace(/[\. .\/,-]+/g, " ");

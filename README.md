@@ -12,6 +12,9 @@ I ran into an issue where my latest project needed to extract a date object from
 </ul>
 
 If you decide to use this, or build off of it, just give me some credit 😀
+<br>
 Twitter - <a href="http://twitter.com/liambolling">@liambolling</a>
+<br>
 LinkedIn - <a href="https://www.linkedin.com/in/liambolling">https://www.linkedin.com/in/liambolling</a>
+<br>
 Website - <a href="https://www.liambolling.com">https://www.liambolling.com</a>
