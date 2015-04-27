@@ -11,6 +11,8 @@ I ran into an issue where my latest project needed to extract a date object from
 <li>"01.02.2016" returns <i>Sat Jan 02 2016 17:58:15 GMT-0500 (EST)</i></li>
 </ul>
 
+<hr />
+
 If you decide to use this, or build off of it, just give me some credit 😀
 <br>
 Twitter - <a href="http://twitter.com/liambolling">@liambolling</a>
