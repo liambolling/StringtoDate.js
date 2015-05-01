@@ -6,9 +6,10 @@ I ran into an issue where my latest project needed to extract a date object from
 <h3>Example strings that StringToDate.js can take:</h3>
 
 <ul>
-<li>"The event is at July 23rd @ around 10:00" returns <i>Thu Jul 23 2015 10:00:53 GMT-0400 (EDT)</i></li>
-<li>"I’ll meet you at Johns house at around 10:00PM on the 20th" returns <i>Mon Apr 20 2015 22:00:58 GMT-0400 (EDT)</i></li>
-<li>"01.02.2016" returns <i>Sat Jan 02 2016 17:58:15 GMT-0500 (EST)</i></li>
+<li>"The event is at July 23rd @ around 10:00" returns <i>Thu Jul 23 2015 10:00:54 GMT-0400 (EDT),Thu Jul 23 2015 10:00:54 GMT-0400 (EDT)</i></li>
+<li>"I’ll meet you at Johns house at around 10:00PM on the 20th" returns <i>Wed May 20 2015 22:00:20 GMT-0400 (EDT),Wed May 20 2015 22:00:20 GMT-0400 (EDT)</i></li>
+<li>"01.02.2016" returns <i>Wed May 20 2015 22:00:20 GMT-0400 (EDT),Wed May 20 2015 22:00:20 GMT-0400 (EDT)</i></li>
+<li>"Jul 17th at 7:00PM to July 19th @ 6:30AM" returns <i>Fri Jul 17 2015 19:00:16 GMT-0400 (EDT),Sun Jul 19 2015 06:30:16 GMT-0400 (EDT)</i></li>
 </ul>
 
 <hr />
